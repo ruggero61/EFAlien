@@ -7,4 +7,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="microsoft.entityframeworkcore" Version="7.0.13" />
+      <PackageReference Include="microsoft.entityframeworkcore.design" Version="7.0.13">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="mysql.data" Version="8.2.0" />
+      <PackageReference Include="mysql.entityframeworkcore" Version="7.0.10" />
+    </ItemGroup>
+
 </Project>
